@@ -1,0 +1,46 @@
+using HelloWorld.FaceService;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
+using System;
+
+namespace HelloWorld.FaceWebApi_v1.Controllers
+{
+    [ApiController]
+    [Route("/api/{controller}/{action}")]
+    public class AccountController : ControllerBase
+    {
+        private readonly ILogger m_logger;
+
+        public AccountController(ILogger<AccountController> logger)
+        {
+            m_logger = logger;
+        }
+
+        [HttpPost]
+        public IActionResult Who([FromBody] FaceRequestArgs args)
+        {
+            try
+            {
+                if (args is null)
+                {
+                    throw new ArgumentNullException(nameof(args));
+                }
+
+                var name = new MyFaceService(m_logger).FindPerson(args.Feature);
+
+                return new JsonResult(new { person = new { name } });
+            }
+            catch (Exception ex)
+            {
+                m_logger.LogWarning(ex.Message);
+
+                return BadRequest(ex.Message);
+            }
+        }
+    }
+
+    public class FaceRequestArgs
+    {
+        public float[] Feature { get; set; }
+    }
+}
