@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="ViewFaceCore" Version="0.3.6" />
+    <PackageReference Include="ViewFaceCore.Extension.SkiaSharp" Version="0.3.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="HelloWorld.FaceService">
+      <HintPath>..\..\dlls\HelloWorld.FaceService.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="StaticFiles\" />
+  </ItemGroup>
+
+</Project>
