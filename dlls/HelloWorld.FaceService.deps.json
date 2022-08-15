@@ -1,0 +1,275 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "HelloWorld.FaceService/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "2.2.0",
+          "NETStandard.Library": "2.0.3",
+          "Newtonsoft.Json": "12.0.2",
+          "ViewFaceCore": "0.3.6",
+          "ViewFaceCore.Extension.SkiaSharp": "0.3.6",
+          "ViewFaceCore.model.face_detector": "6.0.6",
+          "ViewFaceCore.model.face_landmarker_pts5": "6.0.6",
+          "ViewFaceCore.model.face_recognizer_light": "6.0.6",
+          "ViewFaceCore.runtime.win.x64": "6.0.6",
+          "ViewFaceCore.runtime.win.x86": "6.0.6"
+        },
+        "runtime": {
+          "HelloWorld.FaceService.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/2.2.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.18315"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Newtonsoft.Json/12.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.2.23222"
+          }
+        }
+      },
+      "SkiaSharp/2.88.0": {
+        "dependencies": {
+          "SkiaSharp.NativeAssets.Win32": "2.88.0",
+          "SkiaSharp.NativeAssets.macOS": "2.88.0",
+          "System.Memory": "4.5.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SkiaSharp.dll": {
+            "assemblyVersion": "2.88.0.0",
+            "fileVersion": "2.88.0.0"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.Linux/2.88.0": {
+        "dependencies": {
+          "SkiaSharp": "2.88.0"
+        }
+      },
+      "SkiaSharp.NativeAssets.macOS/2.88.0": {},
+      "SkiaSharp.NativeAssets.Win32/2.88.0": {},
+      "System.Buffers/4.4.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Buffers.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.6.25519.3"
+          }
+        }
+      },
+      "System.Memory/4.5.3": {
+        "dependencies": {
+          "System.Buffers": "4.4.0",
+          "System.Numerics.Vectors": "4.4.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Memory.dll": {
+            "assemblyVersion": "4.0.1.1",
+            "fileVersion": "4.6.27617.2"
+          }
+        }
+      },
+      "System.Numerics.Vectors/4.4.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Numerics.Vectors.dll": {
+            "assemblyVersion": "4.1.3.0",
+            "fileVersion": "4.6.25519.3"
+          }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "assemblyVersion": "4.0.4.1",
+            "fileVersion": "4.6.26919.2"
+          }
+        }
+      },
+      "ViewFaceCore/0.3.6": {
+        "runtime": {
+          "lib/netstandard2.0/ViewFaceCore.dll": {
+            "assemblyVersion": "0.3.6.0",
+            "fileVersion": "0.3.6.0"
+          }
+        }
+      },
+      "ViewFaceCore.Extension.SkiaSharp/0.3.6": {
+        "dependencies": {
+          "SkiaSharp": "2.88.0",
+          "SkiaSharp.NativeAssets.Linux": "2.88.0",
+          "SkiaSharp.NativeAssets.Win32": "2.88.0",
+          "ViewFaceCore": "0.3.6"
+        },
+        "runtime": {
+          "lib/netstandard2.0/ViewFaceCore.Extension.SkiaSharp.dll": {
+            "assemblyVersion": "0.3.6.0",
+            "fileVersion": "0.3.6.0"
+          }
+        }
+      },
+      "ViewFaceCore.model.face_detector/6.0.6": {},
+      "ViewFaceCore.model.face_landmarker_pts5/6.0.6": {},
+      "ViewFaceCore.model.face_recognizer_light/6.0.6": {},
+      "ViewFaceCore.runtime.win.x64/6.0.6": {},
+      "ViewFaceCore.runtime.win.x86/6.0.6": {}
+    }
+  },
+  "libraries": {
+    "HelloWorld.FaceService/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.Logging.Abstractions/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-B2WqEox8o+4KUOpL7rZPyh6qYjik8tHi2tN8Z9jZkHzED8ElYgZa/h6K+xliB435SqUcWT290Fr2aa8BtZjn8A==",
+      "path": "microsoft.extensions.logging.abstractions/2.2.0",
+      "hashPath": "microsoft.extensions.logging.abstractions.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
+      "path": "newtonsoft.json/12.0.2",
+      "hashPath": "newtonsoft.json.12.0.2.nupkg.sha512"
+    },
+    "SkiaSharp/2.88.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OKBrwZ4TdRjPjl2tVFbcakyNZBI9zBGFzZKr6DbhgybVpjiBMvIQbbbN4Wfl0lts0TJ5AwHDr6EO7zusJJOamQ==",
+      "path": "skiasharp/2.88.0",
+      "hashPath": "skiasharp.2.88.0.nupkg.sha512"
+    },
+    "SkiaSharp.NativeAssets.Linux/2.88.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AtMW2DzKV4BmVlzBwvxPkcJWI7o1UIDaJ5jN0XUxB9oMdYY6m4oX+k+m0RBAM9yQacf3F8galoPCxsUjA+VH+g==",
+      "path": "skiasharp.nativeassets.linux/2.88.0",
+      "hashPath": "skiasharp.nativeassets.linux.2.88.0.nupkg.sha512"
+    },
+    "SkiaSharp.NativeAssets.macOS/2.88.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tfcr1Bnye1lsBbsskqtlkZrFDBZfIEfJoGzJ6nnJF1sSDs8zzdiuL7PjEUDEh5iHb6Wbc0la9f/OIPnUcW7KFg==",
+      "path": "skiasharp.nativeassets.macos/2.88.0",
+      "hashPath": "skiasharp.nativeassets.macos.2.88.0.nupkg.sha512"
+    },
+    "SkiaSharp.NativeAssets.Win32/2.88.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-R//VHCO/FTBtDMyYTzazuqLU8QOczapgf9FIC6Hw2SodP79CYu27+fdGS0fL9bt1qKCCitlI22QWSniPLG8YJg==",
+      "path": "skiasharp.nativeassets.win32/2.88.0",
+      "hashPath": "skiasharp.nativeassets.win32.2.88.0.nupkg.sha512"
+    },
+    "System.Buffers/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AwarXzzoDwX6BgrhjoJsk6tUezZEozOT5Y9QKF94Gl4JK91I4PIIBkBco9068Y9/Dra8Dkbie99kXB8+1BaYKw==",
+      "path": "system.buffers/4.4.0",
+      "hashPath": "system.buffers.4.4.0.nupkg.sha512"
+    },
+    "System.Memory/4.5.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
+      "path": "system.memory/4.5.3",
+      "hashPath": "system.memory.4.5.3.nupkg.sha512"
+    },
+    "System.Numerics.Vectors/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UiLzLW+Lw6HLed1Hcg+8jSRttrbuXv7DANVj0DkL9g6EnnzbL75EB7EWsw5uRbhxd/4YdG8li5XizGWepmG3PQ==",
+      "path": "system.numerics.vectors/4.4.0",
+      "hashPath": "system.numerics.vectors.4.4.0.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wprSFgext8cwqymChhrBLu62LMg/1u92bU+VOwyfBimSPVFXtsNqEWC92Pf9ofzJFlk4IHmJA75EDJn1b2goAQ==",
+      "path": "system.runtime.compilerservices.unsafe/4.5.2",
+      "hashPath": "system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"
+    },
+    "ViewFaceCore/0.3.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-n0HoGEGDWG48DvuPnz17P8KkZkIV3XwOysjtGB8F9bIGenZZXT18Cp0+5Sdm7T29aga2lNMonzAVCHY6aKzmSQ==",
+      "path": "viewfacecore/0.3.6",
+      "hashPath": "viewfacecore.0.3.6.nupkg.sha512"
+    },
+    "ViewFaceCore.Extension.SkiaSharp/0.3.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-t0+T3j7CuF5X5xF/wOLsW3BpwNQb0obGWwHDttReTLjuTkhi7oYVG5McFqDkI2KZ9Kf/3zWpRDy8CpkBIDt8uw==",
+      "path": "viewfacecore.extension.skiasharp/0.3.6",
+      "hashPath": "viewfacecore.extension.skiasharp.0.3.6.nupkg.sha512"
+    },
+    "ViewFaceCore.model.face_detector/6.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zu6Ow1ao31t8xXFThFy2mNnKW2IsZpaJP9RQcEZcH7ewUBdhlXsKfoP5xmT7I02uAElZiuVsUChYp4Yy2B1j1A==",
+      "path": "viewfacecore.model.face_detector/6.0.6",
+      "hashPath": "viewfacecore.model.face_detector.6.0.6.nupkg.sha512"
+    },
+    "ViewFaceCore.model.face_landmarker_pts5/6.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MwXMbFL5ga494imYB4JZKKdTXEffITb5qGOdMs/b1RETKUFxfSF1eC/i4Sonf6Q+beUdfGgnZ4dttSAIQHRugg==",
+      "path": "viewfacecore.model.face_landmarker_pts5/6.0.6",
+      "hashPath": "viewfacecore.model.face_landmarker_pts5.6.0.6.nupkg.sha512"
+    },
+    "ViewFaceCore.model.face_recognizer_light/6.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QU9XrnYLjReVweEQQpVtklgDkkQSX15I+hqsuqpTjIslZDh+hcWV3Pj3+nh3RfxzYxAM1TB7DoHmC9hFqO1XLw==",
+      "path": "viewfacecore.model.face_recognizer_light/6.0.6",
+      "hashPath": "viewfacecore.model.face_recognizer_light.6.0.6.nupkg.sha512"
+    },
+    "ViewFaceCore.runtime.win.x64/6.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-g1xKLJexye46GrlY8utSBjKgjDcfxLkjwteEX4gQAhBwlmRDX/IiaiBpbdHlHp2O0do7Tt1JraWqKreWJn24Qw==",
+      "path": "viewfacecore.runtime.win.x64/6.0.6",
+      "hashPath": "viewfacecore.runtime.win.x64.6.0.6.nupkg.sha512"
+    },
+    "ViewFaceCore.runtime.win.x86/6.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-62IM4bb0lrsvNxcob2SInDkCW0LMU4CMUuJ/GcDoufRwBsJxnowMJ4WcvN4hLjK2KBQ8zZisjV9jE9oKgarZPw==",
+      "path": "viewfacecore.runtime.win.x86/6.0.6",
+      "hashPath": "viewfacecore.runtime.win.x86.6.0.6.nupkg.sha512"
+    }
+  }
+}
